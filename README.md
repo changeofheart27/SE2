@@ -1,11 +1,11 @@
 # SE2
-SE2 GROUP PROJECT: RECREATE THE CORONA WEBSITE.
+SE2 GROUP PROJECT: Create a web application to track the current coronavirus's spread (similar to CoronaTracker/ Kompa's Group Corona Tracker)
 Source: https://corona.kompa.ai/
 
 Members and their roles:
-- Nguyễn Dương Bích Quỳnh 3C17: jsp (front-end)
+- Nguyễn Dương Bích Quỳnh 3C17: jsp, CSS (front-end)
 - Nguyễn Khắc Hiếu 4C17: database
-- Nguyễn Duy Thái Sơn 3C17: website security
+- Nguyễn Duy Thái Sơn 3C17: website security, testing
 - Dương Mạnh Hiếu 3C17: model, DAO, servlet
 
 Project description:
