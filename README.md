@@ -12,5 +12,6 @@ Project description:
 - 19/04/2020: Project started
 - 20/04/2020: Initial components was designed by members in the group (database, jsp, model, DAO, servlet)
 - 22/4/2020: First draft project uploaded to Github (not finished)
+- 27/4/2020: Updated draft project upload to Github (finishing db, re-configuring servlet file and servlet mapping)
 
 Test
