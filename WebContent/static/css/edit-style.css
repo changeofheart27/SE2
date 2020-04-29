@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../images/homepage.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.container {
+	padding: 40px;
+	margin: 0 200px;
+}
+
+.title {
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+.field-name {
+	line-height: 2em;
+}
+
+#update {
+	font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+#button {
+  background-color: gainsboro;
+  color: white;
+  padding: 20px;
+  margin: 0 250px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}

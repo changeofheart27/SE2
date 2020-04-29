@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../images/homepage.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.virus-table {
+	background: rgba(0, 0, 0, 0.4);
+	color:white;
+  	font-family: 'Century Gothic',sans-serif;
+  	text-align: center;
+  	padding: 40px;
+  	margin: 50px 300px;
+  	
+}
+
+.virus-column {
+	padding: 20px;
+	line-height: 2em;
+}
+
+.name-column tr th {
+	padding: 0 70px;
+}
+
+table, th, td{
+    border:1px solid white;
+}
+table{
+	font-size: 20px;
+    border-collapse:collapse;
+}
+
+tr:hover{
+    background-color:pink;
+    cursor:pointer;
+}    
+ 
+ 
+ 
