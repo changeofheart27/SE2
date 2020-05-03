@@ -14,6 +14,7 @@ Project description:
 - 22/4/2020: First draft project uploaded to Github (not finished)
 - 27/4/2020: Updated draft project uploaded to Github (finishing db, re-configuring servlet file and servlet mapping)
 - 03/5/2020: Draft project finished and uploaded to Github (css updated, url protection added, minor problems fixed)
+
 *Notes: 
 + Project file name is Midterm_WebProject_Group5.zip
 + The sql file is located under CoronaVirusWebProjectFinal/Java Resources/src/sql
