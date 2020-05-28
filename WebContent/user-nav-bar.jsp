@@ -10,9 +10,9 @@
 <body>
 	<div class="nav-bar">
 	<nav>
-	<ul>		
+	<ul style="margin:0">		
 		<li><a href="<%=request.getContextPath()%>/login">LOGIN</a></li>
-		<li><a>CHART</a></li>
+		<li><a href="<%=request.getContextPath()%>/chart">CHART</a></li>
 		<li><a href="<%=request.getContextPath()%>/home" class="active">HOME</a></li>
 	</ul>
     </nav>

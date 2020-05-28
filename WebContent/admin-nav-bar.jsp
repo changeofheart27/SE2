@@ -10,7 +10,7 @@
 <body>
 	<div class="nav-bar">
 	<nav>
-		<ul>
+		<ul style="margin:0">>
 			<li><a href="<%=request.getContextPath()%>/logout">LOGOUT</a></li>
 	        <li><a href="<%=request.getContextPath()%>/newProvince">ADD PROVINCE</a></li>
 	        <li><a href="<%=request.getContextPath()%>/newCountry">ADD COUNTRY</a></li>
