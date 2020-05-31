@@ -7,15 +7,16 @@
 <meta charset="UTF-8">
 <title>Corona Virus Website</title>
 <link rel="stylesheet" type="text/css" href="./static/css/list-style.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-	<jsp:include page="user-nav-bar.jsp"></jsp:include>
-	<div class="virus-table">  
-	<h1>Vietnam Table</h1>
-		<div class="virus-column">
+	<jsp:include page="user-nav-bar.jsp"></jsp:include> 
+	<div class="container"> 
+	<h2>Vietnam Table</h2>
+		<div class="content-table">
         <table>
             <thead>
-            	<div class="name-column">
                 <tr>
                     <th>ID</th>
                     <th>Province</th> 
@@ -24,7 +25,6 @@
                     <th>Current Recover</th>
                     <th>Date</th>
                 </tr>
-                </div>
             </thead>
             <tbody>
                 <c:forEach var="vietnam" items="${listVietnam}">
@@ -41,13 +41,12 @@
         </table>
        </div> 
     </div>
-    
-     <div class="virus-table">   
+       
+    <div class="container">
         <h2>World Table</h2>
-        <div class="virus-column">
+        <div class="content-table">
         <table>
             <thead>
-            <div class="name-column">
                 <tr>
                     <th>ID</th>
                     <th>Country</th> 
@@ -56,7 +55,6 @@
                     <th>Current Recover</th>
                     <th>Date</th>
                 </tr>
-             </div>
             </thead>
             <tbody>
                 <c:forEach var="world" items="${listWorld}">
@@ -71,7 +69,8 @@
                 </c:forEach>
             </tbody>
         </table>
-         </div> 
-    </div>
+        </div> 
+     </div>
+     <jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>

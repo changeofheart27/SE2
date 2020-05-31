@@ -7,12 +7,14 @@
 <meta charset="UTF-8">
 <title>Corona Virus Website</title>
 <link rel="stylesheet" type="text/css" href="./static/css/list-style.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
 	<jsp:include page="admin-nav-bar.jsp"></jsp:include>
-	<div class="virus-table">
+	<div class="container">
         <h2>Vietnam Table</h2>
-        <div class="virus-column">
+        <div class="content-table">
         <table>
             <thead>
                 <tr>
@@ -35,19 +37,19 @@
                     <td><c:out value="${vietnam.currentRecover}"/></td>
                     <td><c:out value="${vietnam.date}"/></td>
                     <td>
-                        <a href="editProvince?id=<c:out value='${vietnam.id}'/>">Edit</a>
-                        <a href="deleteProvince?id=<c:out value='${vietnam.id}'/>">Delete</a>
+                        <button class="btn btn-primary text-light"><a class="text-light" style="text-decoration: none;" href="editProvince?id=<c:out value='${vietnam.id}'/>">Edit</a></button>
+                        <button class="btn btn-danger text-light"><a class="text-light" style="text-decoration: none;" href="deleteProvince?id=<c:out value='${vietnam.id}'/>">Delete</a></button>
                     </td>
                 </tr>
                 </c:forEach>
             </tbody>
         </table>
         </div>
-      </div>
+        </div>
       
-      <div class="virus-table">
+      <div class="container">
         <h2>World Table</h2>
-        <div class="virus-column">
+        <div class="content-table">
         <table>
             <thead>
                 <tr>
@@ -58,8 +60,7 @@
                     <th>Current Recover</th>
                     <th>Date</th>
                     <th>Options</th>
-                </tr>
-             </div>   
+                </tr> 
             </thead>
             <tbody>
                 <c:forEach var="world" items="${listWorld}">
@@ -71,14 +72,15 @@
                     <td><c:out value="${world.currentRecover}"/></td>
                     <td><c:out value="${world.date}"/></td>
                     <td>
-                        <a href="editCountry?id=<c:out value='${world.id}'/>">Edit</a>
-                        <a href="deleteCountry?id=<c:out value='${world.id}'/>">Delete</a>
+                        <button class="btn btn-primary"><a class="text-light" style="text-decoration: none;" href="editCountry?id=<c:out value='${world.id}'/>">Edit</a></button>
+                        <button class="btn btn-danger"><a class="text-light" style="text-decoration: none;" href="deleteCountry?id=<c:out value='${world.id}'/>">Delete</a></button>
                     </td>
                 </tr>
                 </c:forEach>
             </tbody>
         </table>
         </div>
-      </div>
+        </div>
+        <jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>

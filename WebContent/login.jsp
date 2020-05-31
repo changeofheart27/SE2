@@ -12,6 +12,7 @@
 <body>
 	
 	<div class="loginBox">
+	<img src="./static/images/image-ad.png" class="user">
 		
 		<h2>Administrator</h2>
 		<form action="verifyLogin" method="post">
