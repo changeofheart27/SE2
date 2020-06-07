@@ -18,7 +18,7 @@ Project description:
 - 06/6/2020: Project finalization (testing, debugging, fixing errors)
 
 *Notes: 
-+ Project file name is Final_WebProject_Group5.zip
++ Project file name is SE2_Spring2020_Group5_DuongManhHieu_NguyenDuyThaiSon_NguyenDuongBichQuynh_NguyenKhacHieu.zip
 + The sql file is located under CoronaVirusWebProjectFinal/Java Resources/src/sql
 + All the related web libraries are added at CoronaVirusWebProjectFinal/WebContent/WEB-INF/lib
 + Run the project: 
